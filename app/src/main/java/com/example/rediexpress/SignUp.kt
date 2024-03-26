@@ -8,18 +8,18 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class OnBoarding3 : AppCompatActivity() {
+class SignUp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_on_boarding3)
-    }
-
-    fun onClickSignUp(view: View){
-        val intent = Intent(this, SignUp::class.java)
-        startActivity(intent)
+        setContentView(R.layout.activity_sign_up)
     }
 
     fun OnClickSignIn(view: View){
+        val intent = Intent(this, LogIn::class.java)
+        startActivity(intent)
+    }
+
+    fun onClickSignUp(view: View){
         val intent = Intent(this, LogIn::class.java)
         startActivity(intent)
     }
