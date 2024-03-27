@@ -18,4 +18,9 @@ class Profile : AppCompatActivity() {
         val intent = Intent(this, Home::class.java)
         startActivity(intent)
     }
+
+    fun onClickWalletProfile(view: View){
+        val intent = Intent(this, Wallet::class.java)
+        startActivity(intent)
+    }
 }

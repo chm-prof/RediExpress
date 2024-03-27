@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/wallet"
             android:clickable="true"
+            android:onClick="onClickWalletHome"
             android:layout_marginStart="124dp"
             android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
