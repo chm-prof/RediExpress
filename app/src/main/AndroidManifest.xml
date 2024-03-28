@@ -13,6 +13,21 @@
         android:theme="@style/Theme.RediExpress"
         tools:targetApi="31">
         <activity
+            android:name=".AddPaymentMethod"
+            android:exported="false" />
+        <activity
+            android:name=".SendAPackage"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPassword"
             android:exported="false" />
         <activity
