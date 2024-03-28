@@ -20,7 +20,7 @@
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/chats"
+            android:text="Chats"
             android:textColor="@color/GrayColor2"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/search_string"
-            android:hint="@string/search_for_a_driver"
+            android:hint="Search for a driver"
             android:paddingStart="12dp"
             android:textColorHint="@color/GrayColor2"
             android:textSize="12sp" />
@@ -103,14 +103,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/john_joshua"
+                    android:text="John Joshua"
                     android:textColor="@color/TextColor1"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/thanks_for_your_service"
+                    android:text="Thanks for your service"
                     android:textColor="@color/TextColor1"
                     android:textSize="12sp" />
             </LinearLayout>
@@ -145,14 +145,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/chinonso_james"
+                    android:text="Chinonso James"
                     android:textColor="@color/TextColor1"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/alright_i_wll_be_waiting"
+                    android:text="Alright, I wll be waiting"
                     android:textColor="@color/TextColor1"
                     android:textSize="12sp" />
 
@@ -186,14 +186,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/raph_ron"
+                    android:text="Raph Ron"
                     android:textColor="@color/TextColor1"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/thanks_for_your_service"
+                    android:text="Thanks for your service"
                     android:textColor="@color/TextColor1"
                     android:textSize="12sp" />
 
@@ -227,14 +227,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/joy_ezekiel"
+                    android:text="Joy Ezekiel"
                     android:textColor="@color/TextColor1"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/thanks_for_your_service"
+                    android:text="Thanks for your service"
                     android:textColor="@color/TextColor1"
                     android:textSize="12sp" />
 
@@ -267,14 +267,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/joy_ezekiel"
+                    android:text="Joy Ezekiel"
                     android:textColor="@color/TextColor1"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/thanks_for_your_service"
+                    android:text="Thanks for your service"
                     android:textColor="@color/TextColor1"
                     android:textSize="12sp" />
 

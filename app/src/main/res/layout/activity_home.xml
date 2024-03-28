@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/wallet"
             android:clickable="true"
+            android:onClick="onClickWalletHome"
             android:layout_marginStart="124dp"
             android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/search_string"
-            android:hint="@string/search_services"
+            android:hint="Search services"
             android:paddingStart="12dp"
             android:textColorHint="@color/GrayColor2"
             android:textSize="12sp" />
@@ -121,7 +122,7 @@
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/special_for_you"
+            android:text="Special for you"
             android:textColor="#EC8000"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -170,7 +171,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="29dp"
-        android:text="@string/what_would_you_like_to_do"
+        android:text="What would you like to do"
         android:textColor="@color/PrimaryColor"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -203,7 +204,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/customer_care"
+                android:text="Customer Care"
                 android:textColor="@color/PrimaryColor"
                 android:textSize="16sp"
                 android:layout_marginTop="6dp"
@@ -213,7 +214,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/our_customer_care_service_line_is_available_from_8_9pm_week_days_and_9_5_weekends_tap_to_call_us_today"
+                android:text="Our customer care service line is available from 8 -9pm week days and 9 - 5 weekends - tap to call us today"
                 android:textSize="7.45sp"
                 android:textColor="@color/TextColor1"
                 android:layout_marginTop="6dp"
@@ -240,7 +241,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/send_a_package1"
+                android:text="Send a package"
                 android:textColor="@color/PrimaryColor"
                 android:textSize="16sp"
                 android:layout_marginTop="6dp"
@@ -250,7 +251,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/request_for_a_driver_to_pick_up_or_deliver_your_package_for_you"
+                android:text="Request for a driver to pick up or deliver your package for you"
                 android:textSize="7.45sp"
                 android:textColor="@color/TextColor1"
                 android:layout_marginTop="6dp"
@@ -276,7 +277,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fund_your_wallet"
+                android:text="Fund your wallet"
                 android:textColor="@color/PrimaryColor"
                 android:textSize="16sp"
                 android:layout_marginTop="6dp"
@@ -286,7 +287,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/to_fund_your_wallet_is_as_easy_as_abc_make_use_of_our_fast_technology_and_top_up_your_wallet_today"
+                android:text="To fund your wallet is as easy as ABC, make use of our fast technology and top-up your wallet today"
                 android:textSize="7.45sp"
                 android:textColor="@color/TextColor1"
                 android:layout_marginTop="6dp"
@@ -314,7 +315,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/chats"
+                android:text="Chats"
                 android:textColor="@color/PrimaryColor"
                 android:textSize="16sp"
                 android:layout_marginTop="6dp"
@@ -324,7 +325,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/search_for_available_rider_within_your_area"
+                android:text="Search for available rider within your area"
                 android:textSize="7.45sp"
                 android:textColor="@color/TextColor1"
                 android:layout_marginTop="6dp"
