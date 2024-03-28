@@ -69,4 +69,270 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="341dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_string"
+            android:hint="@string/search_services"
+            android:paddingStart="12dp"
+            android:textColorHint="@color/GrayColor2"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/search_normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="341dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/profileinfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="341dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="39dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/special_for_you"
+            android:textColor="#EC8000"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.widget.Button
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:background="@drawable/btn_right"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout7"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout6">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="166dp"
+            android:layout_height="64dp"
+            android:src="@drawable/tech"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="64dp"
+            android:src="@drawable/love"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/what_would_you_like_to_do"
+        android:textColor="@color/PrimaryColor"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="341dp"
+        android:layout_height="341dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="159dp"
+            android:layout_height="159dp"
+            android:background="@drawable/home_btns"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="26.5dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/call_centre"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/customer_care"
+                android:textColor="@color/PrimaryColor"
+                android:textSize="16sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="8dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/our_customer_care_service_line_is_available_from_8_9pm_week_days_and_9_5_weekends_tap_to_call_us_today"
+                android:textSize="7.45sp"
+                android:textColor="@color/TextColor1"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout15"
+            android:layout_width="159dp"
+            android:layout_height="159dp"
+            android:orientation="vertical"
+            android:background="@drawable/home_btns"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="26.5dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/codicon_package"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_a_package1"
+                android:textColor="@color/PrimaryColor"
+                android:textSize="16sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="8dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/request_for_a_driver_to_pick_up_or_deliver_your_package_for_you"
+                android:textSize="7.45sp"
+                android:textColor="@color/TextColor1"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="159dp"
+            android:layout_height="159dp"
+            android:orientation="vertical"
+            android:background="@drawable/home_btns"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="26.5dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/healthicons_call_centre"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fund_your_wallet"
+                android:textColor="@color/PrimaryColor"
+                android:textSize="16sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="8dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to_fund_your_wallet_is_as_easy_as_abc_make_use_of_our_fast_technology_and_top_up_your_wallet_today"
+                android:textSize="7.45sp"
+                android:textColor="@color/TextColor1"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="159dp"
+            android:layout_height="159dp"
+            android:orientation="vertical"
+            android:background="@drawable/home_btns"
+            android:clickable="true"
+            android:onClick="onClickChatsHome"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="26.5dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/chats"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chats"
+                android:textColor="@color/PrimaryColor"
+                android:textSize="16sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="8dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_for_available_rider_within_your_area"
+                android:textSize="7.45sp"
+                android:textColor="@color/TextColor1"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="8dp"/>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
